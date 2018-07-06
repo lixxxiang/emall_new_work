@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mSearchToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:titleTextAppearance="@style/Toolbar.TitleText2">
+
+            <android.support.v7.widget.SearchView
+                android:id="@+id/mSearchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-20dp"
+                app:queryHint="输入感兴趣的地点" />
+        </android.support.v7.widget.Toolbar>
+
+        <com.android.lixiang.base.utils.view.BounceScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/mSearchToolbar"
+            android:background="#FFFFFF">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.android.lixiang.base.utils.view.CommentListView
+                    android:background="#FFFFFF"
+                    android:id="@+id/mSearchListViewCities"
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:divider="@drawable/item_listview_divider"
+                    android:dividerHeight="2px"
+                    android:layout_height="match_parent" />
+                <com.android.lixiang.base.utils.view.CommentListView
+                    android:background="#FFFFFF"
+                    android:id="@+id/mSearchListViewPois"
+                    android:layout_width="match_parent"
+                    android:visibility="invisible"
+                    android:divider="@drawable/item_listview_divider_2"
+                    android:dividerHeight="2px"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </com.android.lixiang.base.utils.view.BounceScrollView>
+        <ProgressBar
+            android:id="@+id/mSearchProgressBar"
+            android:visibility="invisible"
+            style="@style/ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/mOpticsIvLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.android.lixiang.base.utils.view.SquareImageView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/mOpticsIv"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mOpticsPriceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mOpticsIvLayout"
+        android:layout_alignLeft="@+id/mOpticsIvLayout"
+        android:layout_marginTop="14dp"
+        android:textSize="12dp"
+        android:textColor="#B80017"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/mOpticsTimeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mOpticsIvLayout"
+        android:layout_below="@+id/mOpticsPriceTv"
+        android:layout_marginTop="8dp"
+        android:textColor="#9B9B9B"
+        android:textSize="10dp" />
+
+
+</RelativeLayout>

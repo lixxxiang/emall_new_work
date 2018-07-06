@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Toolbar.TitleText2" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="ProgressBar" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">#B4A078</item>
+        <item name="android:indeterminateTintMode">src_atop</item>
+    </style>
+</resources>

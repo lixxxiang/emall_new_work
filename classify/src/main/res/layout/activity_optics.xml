@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.android.lixiang.classify.ui.activity.OpticsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <ru.shmakinv.android.material.widget.GpCollapsingToolbar
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:gp_contentScrim="#B4A078"
+            app:gp_marketStyledBehaviour="true"
+            app:gp_scrimAnimationDuration="300"
+            app:gp_statusBarScrim="#A58E63"
+            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/mHeader"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@android:color/transparent"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/classify_head_bg"
+                tools:ignore="ContentDescription" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/mToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp"
+                app:contentInsetStartWithNavigation="0dp"
+                app:layout_collapseMode="pin"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="12dp">
+
+                    <android.support.v7.widget.AppCompatImageButton
+                        style="@style/CustomActionBar.ToolbarNavigationButtonStyle"
+                        android:id="@+id/classify_toolbar_search_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_search_2" />
+                </RelativeLayout>
+            </android.support.v7.widget.Toolbar>
+        </ru.shmakinv.android.material.widget.GpCollapsingToolbar>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_scrolling" />
+</android.support.design.widget.CoordinatorLayout>

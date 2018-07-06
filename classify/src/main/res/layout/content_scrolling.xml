@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="vertical"
+    android:fadingEdgeLength="100dp"
+    android:overScrollMode="always"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.lixiang.classify.ui.activity.OpticsActivity"
+    tools:showIn="@layout/activity_optics">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:id="@+id/classify_introduction_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/classify_compasses_iv"
+                android:layout_width="13dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_compasses" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/classify_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/classify_compasses_iv"
+                android:textColor="#B4A078"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/classify_introduction_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/classify_compasses_iv"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#9B9B9B"
+                android:textSize="12dp" />
+
+            <RelativeLayout
+                android:id="@+id/classify_space_rl"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_alignParentBottom="true"
+                android:background="#F0F0F0" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mRecommandLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/classify_introduction_rl">
+
+            <RelativeLayout
+                android:id="@+id/mRecommandTextViewLayout"
+                android:layout_width="64dp"
+                android:layout_height="40dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/mRecommandTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="推荐"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/mTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:layout_toLeftOf="@+id/mRecommandFoldLayout"
+                android:layout_toRightOf="@+id/mRecommandTextViewLayout"
+                android:background="#ffffff"
+                android:fillViewport="false"
+                app:layout_scrollFlags="scroll"
+                app:tabIndicatorColor="#00000000"
+                app:tabIndicatorHeight="2.0dp"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="#B80017"
+                app:tabTextColor="#ced0d3" />
+
+            <RelativeLayout
+                android:id="@+id/mRecommandFoldLayout"
+                android:layout_width="64dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="15dp"
+                    android:layout_height="9dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_down" />
+
+                <android.support.v7.widget.AppCompatButton
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mClassifyRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/mRecommandLayout" />
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/mRecommandLayout"-->
+        <!--android:layout_margin="@dimen/text_margin"-->
+        <!--android:text="@string/large_text" />-->
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
