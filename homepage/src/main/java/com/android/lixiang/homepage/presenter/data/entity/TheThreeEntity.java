@@ -13,7 +13,6 @@ public class TheThreeEntity {
     private String imageUrl;
     private String position;
     private String price;
-
     private int itemType;
     private int spanSize;
 

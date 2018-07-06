@@ -37,6 +37,7 @@ class HomeFragment : BaseMvpFragment<HomePresenter>(), HomeView {
     override fun onHomePageUnitsResult(res: HomePageUnitsBean) {
         mHomePageUnitsBean = res
         data.add(DataConverter2().theThreeConvert(res.data!![1].pieces!!)[0])
+        data.add(DataConverter2().horizontalConvert(res.data!![0].pieces!!)[0])
         //ArrayList<HomeMultiItemEntity>
         mPresenter.homePageSlide()
     }
@@ -59,6 +60,5 @@ class HomeFragment : BaseMvpFragment<HomePresenter>(), HomeView {
         super.onActivityCreated(savedInstanceState)
         mPresenter.mView = this
         mPresenter.homePageUnits()
-
     }
 }

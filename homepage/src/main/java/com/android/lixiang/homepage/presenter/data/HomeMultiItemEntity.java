@@ -20,6 +20,5 @@ public class HomeMultiItemEntity implements MultiItemEntity{
     @Override
     public int getItemType() {
         return (Integer) MULTIPLE_FIELDS.get("ITEM_TYPE");
-//                FIELDS_REFERENCE.get()!![SpecialMultipleFields.ITEM_TYPE] as Int;
     }
 }

@@ -1,18 +1,31 @@
 package com.android.lixiang.homepage.ui.adapter
 
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
+import android.view.Gravity
+import android.view.View
+import android.widget.ImageView
+import android.widget.LinearLayout
+import com.android.lixiang.base.utils.view.GridSpacingItemDecoration
+import com.android.lixiang.base.utils.view.TextSwitcherView2
 import com.android.lixiang.homepage.R
 import com.android.lixiang.homepage.presenter.data.HomeMultiItemEntity
 import com.android.lixiang.homepage.presenter.data.bean.HomeEntity
 import com.android.lixiang.homepage.presenter.data.entity.BannerEntity
 import com.android.lixiang.homepage.presenter.data.entity.EveryDayPicEntity
+import com.android.lixiang.homepage.presenter.data.entity.HorizontalEntity
 import com.android.lixiang.homepage.presenter.data.entity.TheThreeEntity
+import com.android.lixiang.homepage.ui.fragment.HomeFragment
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.bumptech.glide.request.RequestOptions
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
+import com.github.rubensousa.gravitysnaphelper.GravitySnapHelper
 import com.orhanobut.logger.Logger
 import com.youth.banner.Banner
 
 import java.util.ArrayList
-
 
 
 class HomeMultiAdapter
@@ -27,23 +40,41 @@ class HomeMultiAdapter
         addItemType(0, R.layout.banner_layout)
         addItemType(1, R.layout.every_day_pic_layout)
         addItemType(2, R.layout.the_three_layout)
+        addItemType(3, R.layout.horizontal_layout)
 
     }
 
     var bannerDataType: List<String> = ArrayList()
     var bannerProductId: List<String> = ArrayList()
     var bannerLink: List<String> = ArrayList()
+    var fragment: HomeFragment? = null
+    private val RECYCLER_OPTIONS = RequestOptions()
+            .centerCrop()
+            .diskCacheStrategy(DiskCacheStrategy.ALL)
+            .dontAnimate()
+
+    fun create(f: HomeFragment, data: List<HomeMultiItemEntity>): HomeMultiAdapter {
+        fragment = f
+        return HomeMultiAdapter(data)
+    }
+
+//    private fun HomeMultiAdapter(data: List<HomeMultiItemEntity>): HomeMultiAdapter {
+//        super(data)
+//    }
 
     override fun convert(helper: BaseViewHolder, item: HomeMultiItemEntity) {
 
         val banner = helper.getView<com.youth.banner.Banner>(R.id.banner)
         val bannerImages: MutableList<String> = mutableListOf()
+        val everyDayPicTitles: MutableList<String> = mutableListOf()
+        val horiziontalRecyclerView = helper.getView<RecyclerView>(R.id.scroll_horiziontal_recyclerview)
+
         when (item.itemType) {
             0 -> {
                 val size = (item.getField("BANNER") as ArrayList<*>).size
                 banner.setImageLoader(GlideImageLoader())
                 for (i in 0 until size)
-                    bannerImages.add(((item.getField("BANNER") as ArrayList<*>)[i] as BannerEntity).imageUrl )
+                    bannerImages.add(((item.getField("BANNER") as ArrayList<*>)[i] as BannerEntity).imageUrl)
                 println(bannerImages)
                 banner.setImages(bannerImages)
 //                bannerDataType = entity.getField(MultipleFields.BANNERS_DATA_TYPE) as List<String>
@@ -56,12 +87,37 @@ class HomeMultiAdapter
 //                banner.setOnBannerListener(this)
             }
             1 -> {
-                val everyDayPicEntity: EveryDayPicEntity = (item.getField("EVERY_DAY_PIC") as ArrayList<*>)[0] as EveryDayPicEntity
-                helper.setText(R.id.etv, everyDayPicEntity.picContentName)
+                val size = (item.getField("EVERY_DAY_PIC") as ArrayList<*>).size
+                for (i in 0 until size)
+                    everyDayPicTitles.add(((item.getField("EVERY_DAY_PIC") as ArrayList<*>)[i] as EveryDayPicEntity).picContentName)
+                val tsv = helper.getView<TextSwitcherView2>(R.id.mep_detail_tv)
+                tsv.getResource(everyDayPicTitles as ArrayList<String>)
             }
             2 -> {
-                val theThreeEntity: TheThreeEntity = (item.getField("THE_THREE") as ArrayList<*>)[0] as TheThreeEntity
-                helper.setText(R.id.ttv, theThreeEntity.imageUrl);
+                Glide.with(mContext)
+                        .load(((item.getField("THE_THREE") as ArrayList<*>)[0] as TheThreeEntity).imageUrl)
+                        .apply(RECYCLER_OPTIONS)
+                        .into(helper.getView(R.id.the_three_1) as ImageView)
+                Glide.with(mContext)
+                        .load(((item.getField("THE_THREE") as ArrayList<*>)[1] as TheThreeEntity).imageUrl)
+                        .apply(RECYCLER_OPTIONS)
+                        .into(helper.getView(R.id.the_three_2) as ImageView)
+                Glide.with(mContext)
+                        .load(((item.getField("THE_THREE") as ArrayList<*>)[2] as TheThreeEntity).imageUrl)
+                        .apply(RECYCLER_OPTIONS)
+                        .into(helper.getView(R.id.the_three_3) as ImageView)
+//                holder.getView(R.id.the_three_1).setOnClickListener(View.OnClickListener { theThreeClick(theThreeList, 0) })
+//                holder.getView(R.id.the_three_2).setOnClickListener(View.OnClickListener { theThreeClick(theThreeList, 1) })
+//                holder.getView(R.id.the_three_3).setOnClickListener(View.OnClickListener { theThreeClick(theThreeList, 2) })
+            }
+            3 -> {
+                horiziontalRecyclerView.layoutManager = LinearLayoutManager(horiziontalRecyclerView.context, LinearLayout.HORIZONTAL, false)
+//                horiziontalRecyclerView.addItemDecoration(GridSpacingItemDecoration(, 20, true))
+                val snapHelperStart = GravitySnapHelper(Gravity.START)
+                snapHelperStart.attachToRecyclerView(horiziontalRecyclerView)
+//                horiziontalRecyclerView.adapter = ItemUnitAdapter(item.getField("HORIZONTAL") as List<HorizontalEntity>, mContext, fragment)
+                horiziontalRecyclerView.adapter = ItemUnitAdapter(item.getField("HORIZONTAL") as List<HorizontalEntity>, mContext)
+
             }
         }
     }
