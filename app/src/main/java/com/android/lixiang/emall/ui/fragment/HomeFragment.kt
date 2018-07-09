@@ -15,17 +15,16 @@ import com.android.lixiang.homepage.presenter.injection.component.DaggerHomeComp
 import com.android.lixiang.homepage.presenter.injection.module.HomeModule
 import com.android.lixiang.emall.presenter.view.HomeView
 import com.android.lixiang.emall.ui.adapter.HomeMultiAdapter
-import android.support.v7.widget.RecyclerView
 import android.view.animation.Animation
 import android.view.animation.AnimationSet
 import android.view.animation.TranslateAnimation
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
-import com.android.lixiang.base.utils.view.DimenUtil
+import com.android.lixiang.base.utils.view.ScreenUtil.dip2px
 import com.android.lixiang.emall.R
 import com.android.lixiang.emall.presenter.data.HomeMultiItemEntity
 import com.android.lixiang.emall.presenter.data.bean.HomePageBean
-import com.orhanobut.logger.Logger
+import com.android.lixiang.emall.ui.activity.MainActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 
 
@@ -34,8 +33,6 @@ class HomeFragment : BaseMvpFragment<HomePresenter>(), HomeView {
         print(res.data.mixedContentList[0].contentDate)
         data.add(DataConverter2().everyDayPicConvert(res.data.mixedContentList)[0])
         mPresenter.homePageUnits()
-
-
     }
 
     override fun onHomePageSlideResult(res: HomePageSlideBean) {
@@ -48,15 +45,13 @@ class HomeFragment : BaseMvpFragment<HomePresenter>(), HomeView {
         data.add(DataConverter2().theThreeConvert(res.data!![1].pieces!!)[0])
         data.add(DataConverter2().horizontalConvert(res.data!![0].pieces!!)[0])
         data.add(DataConverter2().recommandConvert(res.data!![2].pieces!!)[0])
-        //ArrayList<HomeMultiItemEntity>
-//        mPresenter.homePageSlide()
         mHomeRecyclerView.layoutManager = LinearLayoutManager(activity)
         mHomeRecyclerView.adapter = HomeMultiAdapter(data)
     }
 
     private var mHomePageUnitsBean = HomePageUnitsBean()
     private var data: MutableList<HomeMultiItemEntity> = mutableListOf()
-
+    private var mBottomView: LinearLayout?= null
     override fun injectComponent() {
         DaggerHomeComponent.builder().fragmentComponent(fragmentComponent)
                 .homeModule(HomeModule())
@@ -73,38 +68,17 @@ class HomeFragment : BaseMvpFragment<HomePresenter>(), HomeView {
         mPresenter.mView = this
         mPresenter.homePageSlide()
 
-        mHomeRecyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
-            internal var mScrollThreshold: Int = 0
-            override fun onScrolled(recyclerView: RecyclerView?, dx: Int, dy: Int) {
-                super.onScrolled(recyclerView, dx, dy)
-                val isSignificantDelta = Math.abs(dy) > mScrollThreshold
-                if (isSignificantDelta) {
-                    if (dy > 0) {
-                        onScrollUp()
-//                        slideDown(mBottomView)
+        mBottomView = (activity as MainActivity).findViewById(R.id.mBottomNavigationView)
 
-                    } else {
-                        onScrollDown()
-//                        slideUp(mBottomView)
-                    }
-                }
+        mHomeRecyclerView.addOnScrollListener(object : HidingScrollListener() {
+            override fun onHide() {
+                mBottomView!!.startAnimation(slideDown(mBottomView!!))
             }
 
-            fun setScrollThreshold(scrollThreshold: Int) {
-                mScrollThreshold = scrollThreshold
+            override fun onShow() {
+                mBottomView!!.startAnimation(slideUp(mBottomView!!))
             }
         })
-
-    }
-
-    private fun onScrollDown() {
-        //下滑时要执行的代码
-        Logger.d("donw")
-    }
-
-    private fun onScrollUp() {
-        //上滑时要执行的代码
-        Logger.d("up")
     }
 
     private fun slideDown(rl: LinearLayout): AnimationSet {
@@ -113,16 +87,16 @@ class HomeFragment : BaseMvpFragment<HomePresenter>(), HomeView {
                 Animation.RELATIVE_TO_SELF, 0.0f,
                 Animation.RELATIVE_TO_SELF, 0.0f,
                 Animation.RELATIVE_TO_SELF, 1.0f)
-        translateAnimation.duration = 500
+        translateAnimation.duration = 50
         translateAnimation.setAnimationListener(object : Animation.AnimationListener {
             override fun onAnimationStart(animation: Animation) {}
 
             override fun onAnimationRepeat(animation: Animation) {}
 
             override fun onAnimationEnd(animation: Animation) {
-                val brParams = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, DimenUtil().dip2px(context!!, 50F))
+                val brParams = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, dip2px(context!!, 50F))
                 brParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM)
-                brParams.setMargins(DimenUtil().dip2px(context!!, 10F), 0, DimenUtil().dip2px(context!!, 10F), DimenUtil().dip2px(context!!, -230F))
+                brParams.setMargins(0, 0, 0, dip2px(context!!, -50F))
                 rl.layoutParams = brParams
             }
         })
@@ -136,7 +110,7 @@ class HomeFragment : BaseMvpFragment<HomePresenter>(), HomeView {
                 Animation.RELATIVE_TO_SELF, 0.0f,
                 Animation.RELATIVE_TO_SELF, 0.0f,
                 Animation.RELATIVE_TO_SELF, -1.0f)
-        translateAnimation.duration = 500
+        translateAnimation.duration = 50
         translateAnimation.setAnimationListener(object : Animation.AnimationListener {
             override fun onAnimationStart(animation: Animation) {}
 
@@ -145,9 +119,9 @@ class HomeFragment : BaseMvpFragment<HomePresenter>(), HomeView {
             override fun onAnimationEnd(animation: Animation) {
                 Handler().postDelayed(
                         {
-                            val brParams = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, DimenUtil().dip2px(context!!, 50F))
+                            val brParams = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, dip2px(context!!, 50F))
                             brParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM)
-                            brParams.setMargins(DimenUtil().dip2px(context!!, 10F), 0, DimenUtil().dip2px(context!!, 10F), DimenUtil().dip2px(context!!, 6F))
+                            brParams.setMargins(0, 0, 0, 0)
                             rl.layoutParams = brParams
                         }, 10)
             }

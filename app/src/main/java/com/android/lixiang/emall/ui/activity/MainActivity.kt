@@ -16,6 +16,8 @@ import com.android.lixiang.emall.presenter.view.MainView
 import com.android.lixiang.emall.ui.fragment.ClassifyFragment
 import com.android.lixiang.emall.ui.fragment.MainFragment
 import com.android.lixiang.emall.ui.fragment.HomeFragment
+import com.android.lixiang.emall.ui.fragment.MeFragment
+import com.orhanobut.logger.Logger
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -31,6 +33,8 @@ class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
     private val mStack = Stack<Fragment>()
     private val mHomeFragment by lazy { HomeFragment() }
     private val mClassifyFragment by lazy { ClassifyFragment() }
+    private val mMeFragment by lazy { MeFragment() }
+
     var mBottomBar: LinearLayout? = null
     private val mMainFragment by lazy { MainFragment() }
 
@@ -38,11 +42,13 @@ class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
         val manager = supportFragmentManager.beginTransaction()
         manager.add(R.id.mFrameLayout, mHomeFragment)
         manager.add(R.id.mFrameLayout, mClassifyFragment)
+        manager.add(R.id.mFrameLayout, mMeFragment)
 
         manager.add(R.id.mFrameLayout, mMainFragment)
         manager.commit()
         mStack.add(mHomeFragment)
         mStack.add(mClassifyFragment)
+        mStack.add(mMeFragment)
         mStack.add(mMainFragment)
 
     }
@@ -68,6 +74,8 @@ class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
         mPresenter.mView = this
 
         mBottomBar = mBottomNavigationView.findViewById<LinearLayout>(R.id.mBottomView)
+        var s = mBottomNavigationView
+        Logger.d(s)
         initFragment()
         initNavigationView()
 
@@ -164,7 +172,7 @@ class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
             mTitle2.setTextColor(ContextCompat.getColor(this, R.color.colorTextGray))
             mTitle4.setTextColor(ContextCompat.getColor(this, R.color.colorTextGray))
             mTitle5.setTextColor(ContextCompat.getColor(this, R.color.colorMain))
-            changeFragment(1)
+            changeFragment(2)
 
         }
     }
