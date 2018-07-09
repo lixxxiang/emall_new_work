@@ -1,1 +1,1 @@
-include ':app', ':base', ':usercenter', ':homepage', ':classify', ':program', ':search'
+include ':app', ':base', ':usercenter', ':classify', ':program', ':search'

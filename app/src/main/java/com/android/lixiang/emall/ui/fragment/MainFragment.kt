@@ -1,22 +1,15 @@
 package com.android.lixiang.emall.ui.fragment
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.android.lixiang.base.common.BaseApplication
-import com.android.lixiang.base.injection.component.DaggerFragmentComponent
-import com.android.lixiang.base.injection.module.FragmentModule
 import com.android.lixiang.base.ui.fragment.BaseMvpFragment
 
 import com.android.lixiang.emall.R
-import com.android.lixiang.emall.injection.component.DaggerMainFragmentComponent
-import com.android.lixiang.emall.injection.module.MainFragmentModule
-import com.android.lixiang.emall.injection.module.MainModule
+import com.android.lixiang.emall.presenter.injection.module.MainFragmentModule
 import com.android.lixiang.emall.presenter.MainFragmentPresenter
+import com.android.lixiang.emall.presenter.injection.component.DaggerMainFragmentComponent
 import com.android.lixiang.emall.presenter.view.MainFragmentView
 import kotlinx.android.synthetic.main.fragment_main.*
 

@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.android.lixiang.classify.ui.activity.OpticsActivity
 import com.android.lixiang.emall.R
+import com.android.lixiang.emall.R.id.btn
+import com.android.lixiang.emall.R.id.btn2
 import kotlinx.android.synthetic.main.fragment_classify.*
 import org.jetbrains.anko.support.v4.startActivity
 

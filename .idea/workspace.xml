@@ -14,7 +14,95 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d8d9016-49e6-4d5a-8474-37a4f44b2276" name="Default" comment="" />
+    <list default="true" id="9d8d9016-49e6-4d5a-8474-37a4f44b2276" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_27_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_rubensousa_gravitysnaphelper_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/MainBroadcastReceiver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/injection/component/MainComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/injection/component/MainComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/injection/component/MainFragmentComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/injection/component/MainFragmentComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/injection/module/MainFragmentModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/injection/module/MainFragmentModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/injection/module/MainModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/injection/module/MainModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/ClassifyFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/ClassifyFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_nav_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_nav_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base/base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classify/classify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/classify/classify.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emall-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/emall-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/homepage.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/androidTest/java/com/android/lixiang/homepage/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/HomePresenter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/DataConverter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/DataConverter2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/HomeMultiItemEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/api/HomeApi.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/bean/HomeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/bean/HomePageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/bean/HomePageBean2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/bean/HomePageSlideBean.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/bean/HomePageUnitsBean.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/entity/BannerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/entity/EveryDayPicEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/entity/HorizontalEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/entity/TheThreeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/repository/HomeRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/injection/component/HomeComponent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/injection/module/HomeModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/view/HomeView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/service/HomeService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/service/impl/HomeServiceImpl.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/GlideImageLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/HomeAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/HomeAdapter2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/HomeMultiAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/HomePageAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/ItemUnitAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/fragment/HomeFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-hdpi/ic_like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-hdpi/ic_scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-hdpi/index_horizontal_text_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-mdpi/ic_like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-mdpi/ic_scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-xhdpi/ic_like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-xhdpi/ic_scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-xxhdpi/ic_like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable-xxhdpi/ic_scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/drawable/style_home_pager_toolbar_search_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/layout/banner_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/layout/every_day_pic_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/layout/fragment_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/layout/horizontal_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/layout/item_unit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/layout/test_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/layout/the_three_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage/src/test/java/com/android/lixiang/homepage/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/program.iml" beforeDir="false" afterPath="$PROJECT_DIR$/program/program.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/search/search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usercenter/usercenter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/usercenter/usercenter.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,58 +115,47 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SearchActivity.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/activity/SearchActivity.kt">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
-              <folding>
-                <element signature="e#4653#4669#0" />
-                <element signature="e#4370#4555#0" />
-                <element signature="e#4803#4819#0" />
-                <element signature="e#4858#4874#0" />
-                <element signature="e#4604#4719#0" />
-                <element signature="e#4757#4872#0" />
-                <element signature="e#3533#3549#0" />
-                <element signature="e#5540#5556#0" />
-                <element signature="e#5595#5611#0" />
-                <element signature="e#887#1002#0" />
-              </folding>
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchPresenter.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/SearchPresenter.kt">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#46#401#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_search_poi_pois.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/src/main/res/layout/item_search_poi_pois.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="RetrofitFactory.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/src/main/java/com/android/lixiang/base/data/net/RetrofitFactory.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="213">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchCitiesAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/adapter/SearchCitiesAdapter.java">
+      <file leaf-file-name="HomeEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomeEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+            <state relative-caret-position="195">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,53 +163,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_search_poi_cities.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/src/main/res/layout/item_search_poi_cities.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/activity/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_search.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/src/main/res/layout/activity_search.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="HomeMultiAdapter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/HomeMultiAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+            <state relative-caret-position="213">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/src/main/res/values/style.xml">
+      <file leaf-file-name="HomeFragment.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/HomeFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+            <state relative-caret-position="-1047">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+              <folding>
+                <element signature="e#47#1401#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <file leaf-file-name="MainFragment.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/MainFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state relative-caret-position="480">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <element signature="e#47#611#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchPoisAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/adapter/SearchPoisAdapter.java">
+      <file leaf-file-name="RecommandAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/RecommandAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+            <state relative-caret-position="585">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,14 +217,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_search_listview.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/src/main/res/layout/item_search_listview.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="ItemUnitAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/ItemUnitAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="-554">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,10 +235,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="valueResourceFile" />
-        <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -173,11 +251,27 @@
       <find>Logger</find>
       <find>poiNum</find>
       <find>poiInfo</find>
+      <find>EveryDayPicEntity</find>
+      <find>compile</find>
+      <find>theThreeConvert</find>
+      <find>scroll_horiziontal_recyclerview</find>
+      <find>UnitBean</find>
+      <find>itemType</find>
+      <find>Convert</find>
+      <find>GuessLikeBean</find>
+      <find>mBottomNavigationView</find>
+      <find>compileClasspath</find>
+      <find>applicationContext</find>
     </findStrings>
     <replaceStrings>
       <replace>res</replace>
       <replace>mSearchView</replace>
+      <replace>HorizontalEntity</replace>
+      <replace>context!!</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -216,10 +310,6 @@
               <ExternalProjectPojo>
                 <option name="name" value=":classify" />
                 <option name="path" value="$PROJECT_DIR$/classify" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":homepage" />
-                <option name="path" value="$PROJECT_DIR$/homepage" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":program" />
@@ -8059,37 +8149,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/injection/component/SearchComponent.kt" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/injection/module/SearchModule.kt" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/data/repository/SearchRepository.kt" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/data/api/SearchApi.kt" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/service/SearchService.kt" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/service/impl/SearchServiceImpl.kt" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/SearchPresenter.kt" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/view/SearchView.kt" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/data/bean/GetPoiBean.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/android/lixiang/base/data/net/RetrofitFactory.kt" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/android/lixiang/base/utils/view/CommentListView.java" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/adapter/SearchAdapter.java" />
-        <option value="$PROJECT_DIR$/search/src/main/res/layout/item_search_listview.xml" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/adapter/SearchCitiesAdapter.java" />
-        <option value="$PROJECT_DIR$/search/src/main/res/layout/item_search_poi_cities.xml" />
-        <option value="$PROJECT_DIR$/search/src/main/res/drawable/item_listview_divider.xml" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/adapter/SearchPoisAdapter.java" />
-        <option value="$PROJECT_DIR$/search/src/main/res/layout/item_search_poi_pois.xml" />
-        <option value="$PROJECT_DIR$/search/src/main/res/drawable-mdpi/item_listview_divider_2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/base/src/main/res/values/style.xml" />
-        <option value="$PROJECT_DIR$/search/src/main/res/layout/activity_search.xml" />
-        <option value="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/activity/SearchActivity.kt" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/layout/every_day_pic_layout.xml" />
+        <option value="$PROJECT_DIR$/base/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/layout/the_three_layout.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/entity/TheThreeEntity.java" />
+        <option value="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/entity/HorizontalEntity.java" />
+        <option value="$PROJECT_DIR$/base/build.gradle" />
+        <option value="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/ItemUnitAdapter.java" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/layout/horizontal_layout.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/drawable/test.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/HomeMultiItemEntity.java" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/layout/recommand_layotu.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/HomeMultiAdapter.kt" />
+        <option value="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/RecommandAdapter.java" />
+        <option value="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/data/DataConverter2.kt" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/layout/item_recommand.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/layout/recommand_layout.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/layout/item_unit.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/drawable/index_horizontal_text_border.xml" />
+        <option value="$PROJECT_DIR$/homepage/src/main/res/layout/fragment_home.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/bottom_nav_view.xml" />
+        <option value="$PROJECT_DIR$/classify/src/main/java/com/android/lixiang/classify/ui/activity/OpticsActivity.kt" />
+        <option value="$PROJECT_DIR$/homepage/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/MainBroadcastReceiver.kt" />
+        <option value="$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/fragment/HomeFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomePageBean.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomePageSlideBean.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomePageUnitsBean.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/entity/BannerEntity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/entity/EveryDayPicEntity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/entity/HorizontalEntity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/entity/TheThreeEntity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/repository/HomeRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/HomeMultiItemEntity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/DataConverter2.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/api/HomeApi.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/HomePresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/view/HomeView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/service/impl/HomeServiceImpl.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/service/HomeService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/GlideImageLoader.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/HomePageAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/ClassifyFragment.kt" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomeEntity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/activity/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/HomeMultiAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/HomeFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/MainFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/RecommandAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/ItemUnitAdapter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1797" />
-    <option name="y" value="44" />
-    <option name="width" value="1634" />
+    <option name="x" value="-1920" />
+    <option name="y" value="22" />
+    <option name="width" value="1346" />
     <option name="height" value="1024" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -8097,40 +8218,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="emall-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="base" type="feadf853:AndroidModuleNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="emall-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="base" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="classify" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="emall-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="base" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.project.structure.last.selected" value="program" />
+    <property name="android.project.structure.last.selected" value="homepage" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="988b5c30524f535857" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.1.2" />
   </component>
   <component name="RecentsManager">
@@ -8138,13 +8256,20 @@
       <recent name="com.android.lixiang.search.presenter.injection.module" />
       <recent name="com.android.lixiang.search.presenter.injection.component" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.android.lixiang.emall.presenter.injection.module" />
+      <recent name="com.android.lixiang.emall.presenter.injection.component" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.android.lixiang.homepage.ui.adapter" />
       <recent name="com.android.lixiang.search.ui.adapter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homepage/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/homepage/src/main/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/homepage/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/search/src/main/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/search/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -8299,513 +8424,452 @@
       <option name="presentableId" value="Default" />
       <updated>1530771659837</updated>
     </task>
+    <task id="LOCAL-00001" summary="1.horizontal title no bg bug">
+      <created>1530867990301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530867990301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1797" y="44" width="1634" height="1024" extended-state="0" />
+    <frame x="-1920" y="22" width="1346" height="1024" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Preview" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Build Variants" order="2" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32901832" />
-      <window_info anchor="bottom" id="Logcat" weight="0.34519956" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32901832" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.34519956" />
       <window_info id="Captures" order="2" weight="0.25" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29459798" />
-      <window_info anchor="bottom" id="Build" weight="0.394822" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27070552" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.24056095" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.horizontal title no bg bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.horizontal title no bg bug" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classify/src/main/res/layout/activity_optics.xml">
+    <entry file="file://$PROJECT_DIR$/homepage/src/main/res/layout/fragment_home.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="37" selection-start-line="37" selection-end-line="47" selection-end-column="69" />
+        <state relative-caret-position="181">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="e#3961#3991#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/adapter/HomeMultiAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="121" column="54" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/27.1.1/94732bda44fba11302c58e459b7c1f47e7521bf9/support-fragment-27.1.1-sources.jar!/android/support/v4/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="626" column="34" selection-start-line="626" selection-start-column="34" selection-end-line="626" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_nav_view.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classify/src/main/java/com/android/lixiang/classify/ui/activity/OpticsActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
       <provider selected="true" editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/homepage/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state />
+        <state relative-caret-position="358">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/MainBroadcastReceiver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#38#167#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/ui/fragment/HomeFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="249">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding>
+            <element signature="e#50#1609#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/injection/component/SearchComponent.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomePageBean2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomePageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomePageSlideBean.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomePageUnitsBean.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/entity/BannerEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/entity/EveryDayPicEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/entity/HorizontalEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/entity/TheThreeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/DataConverter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/repository/HomeRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#64#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/DataConverter2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+          <folding>
+            <element signature="e#50#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/HomeMultiItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/api/HomeApi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/view/HomeView.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/injection/module/SearchModule.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/view/MainFragmentView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/view/MainView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/HomePresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/MainFragmentPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/MainPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/service/impl/HomeServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/service/impl/MainServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/service/HomeService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/service/MainService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/HomeAdapter2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/HomeAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/GlideImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/HomePageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage/build/tmp/kapt3/stubs/debug/com/android/lixiang/homepage/ui/adapter/HomeMultiAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="e#63#227#0" expanded="true" />
-          </folding>
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/HomePresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage/src/main/java/com/android/lixiang/homepage/presenter/view/HomeView.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/ClassifyFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/android/lixiang/base/common/BaseConstant.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_classify.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="31" />
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/service/SearchService.kt">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#44#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/view/SearchView.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="e#51#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/data/bean/GetPoiBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1733#1734#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1955#1956#0" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2142#2143#0" expanded="true" />
-            <element signature="e#2171#2172#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2298#2299#0" expanded="true" />
-            <element signature="e#2330#2331#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
-            <element signature="e#2467#2468#0" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2601#2602#0" expanded="true" />
-            <element signature="e#2636#2637#0" expanded="true" />
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2709#2710#0" expanded="true" />
-            <element signature="e#2743#2744#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
-            <element signature="e#2806#2807#0" expanded="true" />
-            <element signature="e#2851#2852#0" expanded="true" />
-            <element signature="e#2881#2882#0" expanded="true" />
-            <element signature="e#4267#4268#0" expanded="true" />
-            <element signature="e#4304#4305#0" expanded="true" />
-            <element signature="e#4349#4350#0" expanded="true" />
-            <element signature="e#4393#4394#0" expanded="true" />
-            <element signature="e#4442#4443#0" expanded="true" />
-            <element signature="e#4480#4481#0" expanded="true" />
-            <element signature="e#4541#4542#0" expanded="true" />
-            <element signature="e#4587#4588#0" expanded="true" />
-            <element signature="e#6308#6309#0" expanded="true" />
-            <element signature="e#6349#6350#0" expanded="true" />
-            <element signature="e#6393#6394#0" expanded="true" />
-            <element signature="e#6437#6438#0" expanded="true" />
-            <element signature="e#6476#6477#0" expanded="true" />
-            <element signature="e#6519#6520#0" expanded="true" />
-            <element signature="e#6567#6568#0" expanded="true" />
-            <element signature="e#6615#6616#0" expanded="true" />
-            <element signature="e#6655#6656#0" expanded="true" />
-            <element signature="e#6699#6700#0" expanded="true" />
-            <element signature="e#6749#6750#0" expanded="true" />
-            <element signature="e#6799#6800#0" expanded="true" />
-            <element signature="e#6842#6843#0" expanded="true" />
-            <element signature="e#6889#6890#0" expanded="true" />
-            <element signature="e#6945#6946#0" expanded="true" />
-            <element signature="e#7001#7002#0" expanded="true" />
-            <element signature="e#7042#7043#0" expanded="true" />
-            <element signature="e#7087#7088#0" expanded="true" />
-            <element signature="e#7139#7140#0" expanded="true" />
-            <element signature="e#7191#7192#0" expanded="true" />
-            <element signature="e#7233#7234#0" expanded="true" />
-            <element signature="e#7279#7280#0" expanded="true" />
-            <element signature="e#7333#7334#0" expanded="true" />
-            <element signature="e#7387#7388#0" expanded="true" />
-            <element signature="e#7430#7431#0" expanded="true" />
-            <element signature="e#7477#7478#0" expanded="true" />
-            <element signature="e#7533#7534#0" expanded="true" />
-            <element signature="e#7589#7590#0" expanded="true" />
-            <element signature="e#7628#7629#0" expanded="true" />
-            <element signature="e#7671#7672#0" expanded="true" />
-            <element signature="e#7719#7720#0" expanded="true" />
-            <element signature="e#7767#7768#0" expanded="true" />
-            <element signature="e#9177#9178#0" expanded="true" />
-            <element signature="e#9216#9217#0" expanded="true" />
-            <element signature="e#9265#9266#0" expanded="true" />
-            <element signature="e#9313#9314#0" expanded="true" />
-            <element signature="e#9366#9367#0" expanded="true" />
-            <element signature="e#9406#9407#0" expanded="true" />
-            <element signature="e#9473#9474#0" expanded="true" />
-            <element signature="e#9523#9524#0" expanded="true" />
-            <element signature="e#11212#11213#0" expanded="true" />
-            <element signature="e#11260#11261#0" expanded="true" />
-            <element signature="e#11318#11319#0" expanded="true" />
-            <element signature="e#11376#11377#0" expanded="true" />
-            <element signature="e#11415#11416#0" expanded="true" />
-            <element signature="e#11461#11462#0" expanded="true" />
-            <element signature="e#11512#11513#0" expanded="true" />
-            <element signature="e#11566#11567#0" expanded="true" />
-            <element signature="e#11605#11606#0" expanded="true" />
-            <element signature="e#11648#11649#0" expanded="true" />
-            <element signature="e#11696#11697#0" expanded="true" />
-            <element signature="e#11744#11745#0" expanded="true" />
-            <element signature="e#11789#11790#0" expanded="true" />
-            <element signature="e#11838#11839#0" expanded="true" />
-            <element signature="e#11898#11899#0" expanded="true" />
-            <element signature="e#11958#11959#0" expanded="true" />
-            <element signature="e#12004#12005#0" expanded="true" />
-            <element signature="e#12054#12055#0" expanded="true" />
-            <element signature="e#12116#12117#0" expanded="true" />
-            <element signature="e#12178#12179#0" expanded="true" />
-            <element signature="e#12216#12217#0" expanded="true" />
-            <element signature="e#12258#12259#0" expanded="true" />
-            <element signature="e#12304#12305#0" expanded="true" />
-            <element signature="e#12350#12351#0" expanded="true" />
-            <element signature="e#13748#13749#0" expanded="true" />
-            <element signature="e#13787#13788#0" expanded="true" />
-            <element signature="e#13836#13837#0" expanded="true" />
-            <element signature="e#13884#13885#0" expanded="true" />
-            <element signature="e#13925#13926#0" expanded="true" />
-            <element signature="e#13965#13966#0" expanded="true" />
-            <element signature="e#14020#14021#0" expanded="true" />
-            <element signature="e#14070#14071#0" expanded="true" />
-            <element signature="e#15515#15516#0" expanded="true" />
-            <element signature="e#15557#15558#0" expanded="true" />
-            <element signature="e#15612#15613#0" expanded="true" />
-            <element signature="e#15666#15667#0" expanded="true" />
-            <element signature="e#15725#15726#0" expanded="true" />
-            <element signature="e#15768#15769#0" expanded="true" />
-            <element signature="e#17547#17548#0" expanded="true" />
-            <element signature="e#17596#17597#0" expanded="true" />
-            <element signature="e#17653#17654#0" expanded="true" />
-            <element signature="e#17713#17714#0" expanded="true" />
-            <element signature="e#17752#17753#0" expanded="true" />
-            <element signature="e#17795#17796#0" expanded="true" />
-            <element signature="e#17843#17844#0" expanded="true" />
-            <element signature="e#17891#17892#0" expanded="true" />
-            <element signature="e#17938#17939#0" expanded="true" />
-            <element signature="e#17989#17990#0" expanded="true" />
-            <element signature="e#18053#18054#0" expanded="true" />
-            <element signature="e#18117#18118#0" expanded="true" />
-            <element signature="e#18155#18156#0" expanded="true" />
-            <element signature="e#18197#18198#0" expanded="true" />
-            <element signature="e#18243#18244#0" expanded="true" />
-            <element signature="e#18289#18290#0" expanded="true" />
-            <element signature="e#19673#19674#0" expanded="true" />
-            <element signature="e#19711#19712#0" expanded="true" />
-            <element signature="e#19758#19759#0" expanded="true" />
-            <element signature="e#19804#19805#0" expanded="true" />
-            <element signature="e#19844#19845#0" expanded="true" />
-            <element signature="e#19883#19884#0" expanded="true" />
-            <element signature="e#19936#19937#0" expanded="true" />
-            <element signature="e#19984#19985#0" expanded="true" />
-            <element signature="e#21366#21367#0" expanded="true" />
-            <element signature="e#21401#21402#0" expanded="true" />
-            <element signature="e#21445#21446#0" expanded="true" />
-            <element signature="e#21485#21486#0" expanded="true" />
-            <element signature="e#21516#21517#0" expanded="true" />
-            <element signature="e#21550#21551#0" expanded="true" />
-            <element signature="e#21589#21590#0" expanded="true" />
-            <element signature="e#21627#21628#0" expanded="true" />
-            <element signature="e#21672#21673#0" expanded="true" />
-            <element signature="e#21708#21709#0" expanded="true" />
-            <element signature="e#21763#21764#0" expanded="true" />
-            <element signature="e#21805#21806#0" expanded="true" />
-            <element signature="e#23367#23368#0" expanded="true" />
-            <element signature="e#23410#23411#0" expanded="true" />
-            <element signature="e#23458#23459#0" expanded="true" />
-            <element signature="e#23506#23507#0" expanded="true" />
-            <element signature="e#23544#23545#0" expanded="true" />
-            <element signature="e#23586#23587#0" expanded="true" />
-            <element signature="e#23632#23633#0" expanded="true" />
-            <element signature="e#23678#23679#0" expanded="true" />
-            <element signature="e#23721#23722#0" expanded="true" />
-            <element signature="e#23768#23769#0" expanded="true" />
-            <element signature="e#23824#23825#0" expanded="true" />
-            <element signature="e#23880#23881#0" expanded="true" />
-            <element signature="e#23921#23922#0" expanded="true" />
-            <element signature="e#23966#23967#0" expanded="true" />
-            <element signature="e#24018#24019#0" expanded="true" />
-            <element signature="e#24070#24071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.orhanobut/logger/1.15/22414716963b290649e69cf57ffc1c2453193672/logger-1.15-sources.jar!/com/orhanobut/logger/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/android/lixiang/base/ext/CommonExt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/data/api/SearchApi.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#55#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/data/repository/SearchRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
-          <folding>
-            <element signature="e#62#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/service/impl/SearchServiceImpl.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <element signature="e#49#380#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="468">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/src/main/java/com/android/lixiang/base/data/net/RetrofitFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        <state relative-caret-position="213">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/java/com/android/lixiang/base/utils/view/CommentListView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/presenter/data/bean/HomeEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/adapter/SearchAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="195">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/build/intermediates/packaged_res/debug/layout/item_search_poi_pois.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/activity/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="165">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/res/drawable/item_listview_divider.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/HomeMultiAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="213">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/res/drawable-mdpi/item_listview_divider_2.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/HomeFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="-1047">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding>
+            <element signature="e#47#1401#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/adapter/SearchCitiesAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/fragment/MainFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+        <state relative-caret-position="480">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#47#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/RecommandAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/adapter/SearchPoisAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/lixiang/emall/ui/adapter/ItemUnitAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+        <state relative-caret-position="-554">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/res/layout/item_search_poi_cities.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/res/layout/item_search_listview.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/res/layout/item_search_poi_pois.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/presenter/SearchPresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#46#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/src/main/res/values/style.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/res/layout/activity_search.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/src/main/java/com/android/lixiang/search/ui/activity/SearchActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="e#4653#4669#0" />
-            <element signature="e#4370#4555#0" />
-            <element signature="e#4803#4819#0" />
-            <element signature="e#4858#4874#0" />
-            <element signature="e#4604#4719#0" />
-            <element signature="e#4757#4872#0" />
-            <element signature="e#3533#3549#0" />
-            <element signature="e#5540#5556#0" />
-            <element signature="e#5595#5611#0" />
-            <element signature="e#887#1002#0" />
           </folding>
         </state>
       </provider>

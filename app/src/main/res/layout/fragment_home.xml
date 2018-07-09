@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/mHomeSwipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar_index">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mHomeRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar_index" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_index"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            app:contentInsetStart="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/index_scan_tv"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/ic_scan" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/index_search_rl"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="6"
+                    android:background="@drawable/style_home_pager_toolbar_search_view"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical">
+
+                    <RelativeLayout
+                        android:layout_width="184dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/index_search_icon"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="0dp"
+                            android:background="@drawable/ic_home_search" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/edt_search"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@+id/index_search_icon"
+                            android:lines="1"
+                            android:text="@string/index_searchbar_hint"
+                            android:textColor="#9B9B9B"
+                            android:textColorHint="#9B9B9B"
+                            android:textSize="12dp" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/index_noti_tv"
+                        android:layout_width="20dp"
+                        android:layout_height="22dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="#00000000" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -5,19 +5,18 @@ import android.support.v4.app.Fragment
 import android.support.v4.content.ContextCompat
 import android.support.v7.widget.AppCompatImageView
 import android.support.v7.widget.AppCompatTextView
-import android.view.View
+import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import com.android.lixiang.base.ui.activity.BaseMvpActivity
 import com.android.lixiang.emall.R
-import com.android.lixiang.emall.injection.component.DaggerMainComponent
-import com.android.lixiang.emall.injection.module.MainModule
+import com.android.lixiang.emall.presenter.injection.module.MainModule
 import com.android.lixiang.emall.presenter.MainPresenter
+import com.android.lixiang.emall.presenter.injection.component.DaggerMainComponent
 import com.android.lixiang.emall.presenter.view.MainView
 import com.android.lixiang.emall.ui.fragment.ClassifyFragment
 import com.android.lixiang.emall.ui.fragment.MainFragment
-import com.android.lixiang.homepage.ui.fragment.HomeFragment
+import com.android.lixiang.emall.ui.fragment.HomeFragment
 import kotlinx.android.synthetic.main.activity_main.*
-import org.jetbrains.anko.toast
 import java.util.*
 
 class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
@@ -32,16 +31,15 @@ class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
     private val mStack = Stack<Fragment>()
     private val mHomeFragment by lazy { HomeFragment() }
     private val mClassifyFragment by lazy { ClassifyFragment() }
-
+    var mBottomBar: LinearLayout? = null
     private val mMainFragment by lazy { MainFragment() }
 
-
-    private fun initFragment(){
+    private fun initFragment() {
         val manager = supportFragmentManager.beginTransaction()
-        manager.add(R.id.mFrameLayout,mHomeFragment)
-        manager.add(R.id.mFrameLayout,mClassifyFragment)
+        manager.add(R.id.mFrameLayout, mHomeFragment)
+        manager.add(R.id.mFrameLayout, mClassifyFragment)
 
-        manager.add(R.id.mFrameLayout,mMainFragment)
+        manager.add(R.id.mFrameLayout, mMainFragment)
         manager.commit()
         mStack.add(mHomeFragment)
         mStack.add(mClassifyFragment)
@@ -50,10 +48,9 @@ class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
     }
 
 
-
     private fun changeFragment(position: Int) {
         val manager = supportFragmentManager.beginTransaction()
-        for (fragment in mStack){
+        for (fragment in mStack) {
             manager.hide(fragment)
         }
 
@@ -70,6 +67,7 @@ class MainActivity : BaseMvpActivity<MainPresenter>(), MainView {
 
         mPresenter.mView = this
 
+        mBottomBar = mBottomNavigationView.findViewById<LinearLayout>(R.id.mBottomView)
         initFragment()
         initNavigationView()
 
