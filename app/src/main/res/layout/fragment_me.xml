@@ -10,7 +10,7 @@
         android:layout_alignParentBottom="true"
         android:background="#F0F0F0" />
 
-    <com.example.emall_core.util.view.BounceScrollView
+    <com.android.lixiang.base.utils.view.BounceScrollView
         android:id="@+id/me_bsv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
                             android:layout_height="53dp"
                             android:layout_alignParentEnd="true"
                             android:layout_alignParentRight="true"
-                            android:background="@drawable/me_avatar" />
+                            android:background="@drawable/ic_avatar" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -84,7 +84,7 @@
                             android:layout_alignParentRight="true"
                             android:layout_centerVertical="true"
                             android:layout_marginRight="23dp"
-                            android:background="@drawable/me_to_computer"
+                            android:background="@drawable/img_computer"
                             android:visibility="gone" />
 
                         <android.support.v7.widget.AppCompatButton
@@ -135,7 +135,7 @@
                         android:background="#DADADA" />
 
                     <android.support.v7.widget.AppCompatButton
-                        android:id="@+id/me_order"
+                        android:id="@+id/mOrderBtn"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@android:color/transparent" />
@@ -196,7 +196,7 @@
                             android:layout_height="25dp"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="14dp"
-                            android:background="@drawable/obligation" />
+                            android:background="@drawable/img_order_1" />
 
                     </RelativeLayout>
 
@@ -211,7 +211,7 @@
                             android:layout_height="26dp"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="14dp"
-                            android:background="@drawable/check_pending" />
+                            android:background="@drawable/img_order_2" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -225,7 +225,7 @@
                             android:layout_height="25dp"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="14dp"
-                            android:background="@drawable/in_production" />
+                            android:background="@drawable/img_order_3" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -239,7 +239,7 @@
                             android:layout_height="26dp"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="14dp"
-                            android:background="@drawable/delivered" />
+                            android:background="@drawable/img_order_4" />
                     </RelativeLayout>
                 </LinearLayout>
 
@@ -326,7 +326,7 @@
                 android:background="#FFFFFF">
 
                 <ListView
-                    android:id="@+id/me_function_lv"
+                    android:id="@+id/mMeListView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:divider="@drawable/list_item_divider"
@@ -339,6 +339,6 @@
                 android:layout_height="6dp"
                 android:background="#F0F0F0" />
         </LinearLayout>
-    </com.example.emall_core.util.view.BounceScrollView>
+    </com.android.lixiang.base.utils.view.BounceScrollView>
 
 </RelativeLayout>

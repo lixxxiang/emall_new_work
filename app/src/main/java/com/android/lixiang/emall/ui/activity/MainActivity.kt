@@ -9,6 +9,7 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import com.android.lixiang.base.ui.activity.BaseMvpActivity
 import com.android.lixiang.emall.R
+import com.android.lixiang.emall.R.id.mBottomNavigationView
 import com.android.lixiang.emall.presenter.injection.module.MainModule
 import com.android.lixiang.emall.presenter.MainPresenter
 import com.android.lixiang.emall.presenter.injection.component.DaggerMainComponent
