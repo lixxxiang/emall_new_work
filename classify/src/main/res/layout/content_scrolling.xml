@@ -87,6 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_gravity="bottom"
+                app:tabTextAppearance="@style/TabLayoutTextStyle"
                 android:layout_toLeftOf="@+id/mRecommandFoldLayout"
                 android:layout_toRightOf="@+id/mRecommandTextViewLayout"
                 android:background="#ffffff"

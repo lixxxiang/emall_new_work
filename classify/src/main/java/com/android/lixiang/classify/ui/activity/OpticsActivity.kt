@@ -39,12 +39,18 @@ class OpticsActivity : BaseMvpActivity<OpticsPresenter>(), OpticsView {
     override fun onSceneSearchResult(res: SceneSearchBean) {
         sceneSearchDataList = res.data.searchReturnDtoList
         mClassifyRecyclerView.layoutManager = mGridLayoutManager
-        mClassifyRecyclerView.adapter = OpticsAdapter(R.layout.optics_recyclerview_layout,sceneSearchDataList)
+        adapter = OpticsAdapter(R.layout.optics_recyclerview_layout,sceneSearchDataList)
+        mClassifyRecyclerView.adapter = adapter
+        adapter!!.setOnItemClickListener { adapter, view, position ->
+            Logger.d(position)
+            startActivity<GoodsDetailActivity>()
+        }
     }
 
-    var mActivity: OpticsActivity? = null
-    var sceneSearchDataList: MutableList<SceneSearchBean.DataBean.SearchReturnDtoListBean> = mutableListOf()
-    var mGridLayoutManager: GridLayoutManager? = null
+    private var mActivity: OpticsActivity? = null
+    private var sceneSearchDataList: MutableList<SceneSearchBean.DataBean.SearchReturnDtoListBean> = mutableListOf()
+    private var mGridLayoutManager: GridLayoutManager? = null
+    private var adapter: OpticsAdapter?= null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_optics)

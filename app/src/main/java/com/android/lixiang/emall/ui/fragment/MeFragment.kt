@@ -10,16 +10,18 @@ import android.widget.RelativeLayout
 import android.widget.Toast
 import com.android.lixiang.emall.R
 import com.android.lixiang.emall.ui.adapter.MeFunctionAdapter
+import com.android.lixiang.order.ui.activity.OrderActivity
 import com.blankj.utilcode.util.NetworkUtils
 import com.blankj.utilcode.util.SizeUtils
 import kotlinx.android.synthetic.main.fragment_me.*
+import org.jetbrains.anko.support.v4.startActivity
 
 
 class MeFragment : Fragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v) {
             mOrderBtn -> {
-                
+                startActivity<OrderActivity>()
             }
         }
     }
